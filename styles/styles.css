@@ -1,0 +1,508 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    background-image: url(../img/Carrousel/carousel1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 60vh;
+} */
+
+.carousel-inner {
+    /* height: 60vh; */
+}
+
+.carousel-inner img.caroussel {
+    filter: brightness(0.4);
+}
+
+section.container {
+    width: 70%;
+}
+
+/* .row {
+    width: 1000px;
+} */
+
+section.container.row1 {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+div.card {
+    display: flex;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    /* width: 1200x; */
+    border: none;
+    justify-content: space-between;
+}
+
+.cardbody {
+    display: flex;
+    flex-direction: column;
+}
+
+#pizza {
+    width: 500px;
+    height: 300px;
+}
+
+/* .carousselCard {
+    width: 500px;
+} */
+
+h1 {
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+section.bg-darc {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    transition: top 0.5s, transform 0.5s;
+}
+
+/* nav ul {
+    position: absolute;
+	left: 1000px;
+	transition: top 1s, transform 1s;
+} */
+
+.nav-item1:hover, .nav-item2:hover, .nav-item3:hover {
+    top: 10%;
+	transform: translateY(-5%);
+    transition: top 0.5s, transform 0.5s;
+    border-bottom: 2px solid green;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+ul.nav a {
+    font-size: 0.8rem;
+}
+
+.btnnav a:hover {
+    color: white !important;
+}
+
+.btna {
+    color: gray;
+}
+
+.btna:hover {
+    color: white !important;
+}
+
+.h2 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.commandeEtReserve {
+    display: flex;
+    flex-direction: row;
+}
+
+.commandeEtReserve a {
+    font-size: 1rem;
+}
+
+.commandeEtReserve .btncommande:hover {
+    color: white !important;
+}
+
+.commandeEtReserve .btnreserve:hover {
+    color: rgb(70, 70, 70) !important;
+}
+
+.commandeEtReserve :nth-child(1) {
+    margin-right: 50px;
+}
+
+.bannieres {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/banniere5.jpg);
+   background-repeat: repeat;
+   height: 140vh;
+   /* text-align: center; */
+}
+.bannieres h2 {
+    color: white;
+}
+
+.varietes{    
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-expand-lg {
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btnactif {
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+}
+
+.container-fluid {
+    color: white;
+    /* background-color: transparent; */
+}
+
+.container-fluid .collapse a {
+    /* transition: 1s ease-in-out; */
+}
+
+.container-fluid .collapse a:hover {
+    
+    /* transition: 1s ease-in-out; */
+    border: 1px solid white;
+    border-radius: 10%;
+    transform: border ease-in-out 1s;
+}
+
+#special {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#with {
+    font-weight: 400;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.varieteCards {
+    /* height: 200vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1060px;
+}
+
+.varieteCards div.card {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    margin: 5px;
+}
+
+div.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-body p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 520px;
+}
+
+.card-body h5 {
+    max-width: 520px;
+}
+
+#variete1, #variete2, #variete3, #variete4 {
+    width: 520px;
+    height: 320px;
+}
+
+.bg-dark {
+    color: white;
+    text-align: center;
+}
+
+.contenu {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bgVerres {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Carrousel/carousel1.jpg);
+    background-position: bottom;
+    height: 50vh;
+    color: white;
+    text-align: center;
+}
+
+.passerUneCommande {
+    padding-top: 40px;
+}
+
+.passerUneCommande h4 {
+    padding-bottom: 15px;
+}
+
+/* .carousel-inner {
+    width: 70%;
+    margin: 0 auto;
+} */
+
+h3 {
+    text-transform: uppercase;
+}
+
+.username {
+    width: 100%;
+}
+
+.username2 {
+    /* top: 25px; */
+    /* bottom: 7px; */
+}
+
+.choisir, .nbPersonnes {
+    width: 100%;
+}
+
+.nbPersonnes {
+    position: absolute;
+    /* top: 107px; */
+}
+
+.flexform {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexform > div {
+    width: 49%;
+    position: relative;
+}
+
+.passerUneCommande span {
+    background-color: rgb(207, 207, 207);
+}
+
+.phone {
+    transform: scale(-1, 1);
+}
+
+.second .carousel-inner .carousel-item{
+    width: 100%;
+}
+
+.me-auto {
+    
+}
+
+/********** media queries ************/
+
+@media screen and (max-width:767px) {
+
+    section.container {
+        /* position: relative; */
+        /* top: -150px; */
+        /* top: 50px;  */
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .varieteCards {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannieres {
+        height: 250vh;
+    }
+
+    .h2 {
+        position: absolute;
+        top: 250px;
+        left: 450px;
+        color: white;
+    }   
+
+    .commandeEtReserve a {
+        font-size: 0.8rem!important;
+    } 
+
+    .h2 h2 {
+        font-size: 1.3rem!important;
+    }
+
+}
+
+@media screen and (max-width:577px) {
+    
+    .h2 {
+            position: absolute;
+            top: 150px;
+            left: 0px;
+            color: white;
+    }
+
+    .bannieres {
+        height: 210vh;
+    }
+
+
+    .varieteCards div.card {
+        width: 260px;
+        /* height: 160px; */
+    }
+
+    .card-body p {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 260px;
+    }
+
+    .card-body h5 {
+        max-width: 260px;
+    }
+
+#variete1, #variete2, #variete3, #variete4 {
+        width: 260px;
+        height: 160px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    .h2 {
+        position: absolute;
+        top: 200px;
+        left: 400px;
+        color: white;
+    }
+
+    .commandeEtReserve a {
+        font-size: 0.8rem!important;
+    } 
+
+    .h2 h2 {
+        font-size: 1.3rem!important;
+    }
+
+    .navbar-expand-lg {
+        width: 220px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .btnactif {
+        background-color: white;
+        color: black;
+        border-radius: 10%;
+    }
+    
+    .container-fluid {
+        color: white;
+        /* background-color: transparent; */
+    }
+    
+}
+
+@media screen and (min-width:767px) and (max-width:1060px) {
+
+    .varieteCards {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannieres {
+        height: 250vh;
+    }
+
+}
+
+@media screen and (max-width:939px) {
+
+    header ul, header h1 {
+        display: inline-block;
+        text-align: center;
+        margin-left: 70px;
+    }
+
+    header h1 {
+        margin-left: 86px;
+    }
+
+    nav {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+}
+
+@media screen and (max-width:373px) {
+
+    .h2 {
+        position: absolute;
+        top: 180px;
+        color: white;
+    }
+
+    .commandeEtReserve a {
+        font-size: 0.6rem!important;
+    } 
+
+    .h2 h2 {
+        font-size: 1.1rem!important;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1462px) {
+
+}
+
+@media screen and (max-width:992px) {
+
+
+
+
+
+}
